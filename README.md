@@ -17,7 +17,7 @@ into its own component parts.
 
 There are several options for how to get the script. Here are a few:
 
-- With your browser open at the [GitHub repository](https://github.com/mfncooper/dissect),
+- With your browser open at the [GitHub repository](https://github.com/mfncooper/dissect-agwpe),
   do one of the following:
   - Click on the `agwpe.lua` file in the list to open it, and then click the
    'Download raw file' button on the right of the file header.
