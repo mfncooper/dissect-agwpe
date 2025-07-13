@@ -207,7 +207,7 @@ local function split_buffer(buffer)
     end
     local length
     _, _, length = text:find(" Len=(%d+)")
-    if length == nil or length > remaining then
+    if length == nil or tonumber(length) > remaining then
         return buffer(0, ix), buffer(ix)
     else
         return buffer(0, ix), buffer(ix, length)
